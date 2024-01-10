@@ -10,7 +10,7 @@ while (intentos > 0) {
 
   if (respuestaUsuario.toLowerCase() === respuestaCorrecta.toLowerCase()) {
     alert("¡Bienvenido! Ya puedes elegir que productos comprar.");
-    console.log("Cristian Gianoboli");
+    console.log("Bienvenido Cristian Gianoboli");
 
     // Colocamos el código que se ejecuta si la respuesta es correcta.
 
@@ -93,9 +93,9 @@ while (intentos > 0) {
       // Mostramos los resultados en la consola.
 
       console.log(`Registro de compra ${i}:`);
-      console.log("Cantidad de producto 1: " + cantidadProducto1);
-      console.log("Cantidad de producto 2: " + cantidadProducto2);
-      console.log("Cantidad de producto 3: " + cantidadProducto3);
+      console.log("Cantidad de producto 1 (Banana/s): " + cantidadProducto1);
+      console.log("Cantidad de producto 2 (Manzana/s ): " + cantidadProducto2);
+      console.log("Cantidad de producto 3 (Pera/s): " + cantidadProducto3);
       console.log("Costo total: $" + costoTotal);
     }
 
